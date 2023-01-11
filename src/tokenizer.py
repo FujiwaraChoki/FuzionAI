@@ -39,3 +39,11 @@ class Tokenizer:
                 creator_names.append(creator['name'])
 
         return creator_names
+
+    def get_links(self, creator_names) -> list:
+        creators = json.load(open('assets/creators.json'))
+        links = []
+        for creator in creators:
+            if creator['name'] in creator_names:
+                links.append(creator['link'])
+        return links
