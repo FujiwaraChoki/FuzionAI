@@ -35,7 +35,7 @@ class Tokenizer:
         creators = json.load(open('assets/creators.json'))
         creator_names = []
         for creator in creators:
-            if str(creator['name']).lower() in self.text:
+            if str(creator['name']).lower() in self.text.lower():
                 creator_names.append(creator['name'])
 
         return creator_names
