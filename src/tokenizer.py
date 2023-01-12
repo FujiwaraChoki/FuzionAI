@@ -45,5 +45,5 @@ class Tokenizer:
         links = []
         for creator in creators:
             if creator['name'] in creator_names:
-                links.append(creator['link'])
+                links.append(creator['channel_link'])
         return links
