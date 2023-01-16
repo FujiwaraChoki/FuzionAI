@@ -5,6 +5,23 @@ import os
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
 
+def get_random_timestamp(video_url) -> list:
+    '''
+    Get random timestamp from a video.
+    '''
+    # Get video length
+    yt = YouTube(video_url)
+    video_length = yt.length
+
+    # Get random timestamp
+    random_timestamp = random.randint(0, video_length)
+
+    # Get random timestamp in the middle of the video
+    random_timestamp = random_timestamp + (video_length - random_timestamp) // 2
+    
+    return [random_timestamp, video_length]
+
+
 def download_random_videos(channel_urls):
     # Download random videos from each channel
     # First, get all videos from channel
