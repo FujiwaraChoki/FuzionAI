@@ -7,7 +7,7 @@ from exceptions import NoCreatorsError
 def main():
     # Create output directory
     os.makedirs('build', exist_ok=True)
-    user_input = input('What video do you want to generate?\n')
+    user_input = input('Enter the creators, seperate by space:\n')
     tokenizer = Tokenizer(user_input)
     creators = tokenizer.get_creators()
 

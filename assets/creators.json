@@ -1,15 +1,11 @@
 [
   {
     "name": "PewDiePie",
-    "channel_link": "https://www.youtube.com/user/PewDiePie"
+    "channel_link": "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
   },
   {
     "name": "T-Series",
-    "channel_link": "https://www.youtube.com/user/tseries"
-  },
-  {
-    "name": "Cocomelon - Nursery Rhymes",
-    "channel_link": "https://www.youtube.com/user/Cocomelon"
+    "channel_link": "https://www.youtube.com/channel/UCq-Fj5jknLsUf-MWSy4_brA"
   },
   {
     "name": "5-Minute Crafts",
@@ -17,22 +13,22 @@
   },
   {
     "name": "MrBeast",
-    "channel_link": "https://www.youtube.com/user/MrBeast6000"
+    "channel_link": "https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"
   },
   {
     "name": "Dude Perfect",
-    "channel_link": "https://www.youtube.com/user/corycotton"
+    "channel_link": "https://www.youtube.com/channel/UCRijo3ddMTht_IHyNSNXpNQ"
   },
   {
     "name": "Ryan's World",
-    "channel_link": "https://www.youtube.com/user/nigahiga"
+    "channel_link": "https://www.youtube.com/channel/UCSAUGyc_xA8uYzaIVG6MESQ"
   },
   {
     "name": "Hamza",
-    "channel_link": "https://www.youtube.com/@Hamza97"
+    "channel_link": "https://www.youtube.com/channel/UCWsslCoN3b_wBaFVWK_ye_A"
   },
   {
     "name": "David Goggins",
-    "channel_link": "https://www.youtube.com/@RiseAboveMotivation"
+    "channel_link": "https://www.youtube.com/channel/UCuP7mlL6VWwnJZBCOyS-zTQ"
   }
 ]
